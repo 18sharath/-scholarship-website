@@ -1,0 +1,50 @@
+     This is a static webpage for the scholarship application form. Here we used some HTML tags, CSS style properties, and Javascript. 
+in this website we are giving information regarding our scholarships like the documents required, Eligibility criteria, and login page.
+
+    We have used our learnings of web development learned in our modules, i.e. 
+basic usage of HTML tags and CSS styling methods, and Javascript to design this webpage.
+
+as per my knowledge i created my own website and here by below shown my code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Login</title>
+    <link rel="stylesheet" type="text/css" href="fb.css">
+    <script type="text/javascript">
+        function msg(){
+                                    alert("Login Successful");
+                                   }
+        function message(){
+                                   alert("Recovery Mail sent to your Email ID");
+                                          }
+    </script>
+</head>
+<body>
+    <center>
+<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" height="90" class="facebook"  
+</center>
+    <div class="container">
+        
+        <form>
+            
+            <center><h1>Log in to Facebook</h1></center>
+            <div class="form-group">
+                <label>Email address or phone number</label>
+                <input type="text" class="form-control"           placeholder="Email address or phone number">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-   control"  placeholder="Password">
+            </div>
+            <input type="button" class="btn btn-primary" value="Log In" onclick="msg()"/>
+                <div class="forgot-password">
+              <a href="#" onclick="message()">Forgot Password?</a>
+                <a href="#">Sign up for Facebook </a>
+            
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
